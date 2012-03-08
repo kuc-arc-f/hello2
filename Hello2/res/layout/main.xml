@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    >
+<TextView  
+    android:layout_width="fill_parent" 
+    android:layout_height="wrap_content" 
+    android:text="@string/hello"
+    />
+
+
+
+<TableLayout android:id="@+id/TableLayout01" android:layout_width="fill_parent" android:layout_height="wrap_content" android:stretchColumns="1">
+
+
+<TableRow android:id="@+id/TableRow01" android:layout_width="wrap_content" android:layout_height="wrap_content"><TextView android:id="@+id/TextView01" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/TextView01"></TextView><Button android:layout_width="wrap_content" android:layout_height="wrap_content" android:id="@+id/Button01" android:text="@string/Button01"></Button>
+</TableRow><TableRow android:id="@+id/TableRow02" android:layout_height="wrap_content" android:layout_width="fill_parent"><TextView android:id="@+id/TextView02" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/TextView02"></TextView>
+<Button android:id="@+id/Button02" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/Button02"></Button>
+
+</TableRow>
+<LinearLayout android:id="@+id/LinearLayout02" android:layout_width="wrap_content" android:layout_height="wrap_content"><EditText android:id="@+id/EditText01" android:layout_height="wrap_content" android:text="Hoge" android:layout_width="fill_parent"></EditText>
+</LinearLayout><LinearLayout android:id="@+id/LinearLayout01" android:layout_width="wrap_content" android:layout_height="wrap_content"><Button android:id="@+id/Button03" android:layout_height="wrap_content" android:text="@string/Button03" android:layout_width="fill_parent"></Button></LinearLayout>
+
+</TableLayout>
+</LinearLayout>

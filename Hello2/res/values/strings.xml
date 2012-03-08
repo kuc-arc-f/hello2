@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="hello">Hello World, Hello2[22]!</string>
+    <string name="app_name">Hello_02</string>
+<string name="TextView01">TextView01[1]</string>
+<string name="Button01">Button01[01]</string>
+<string name="TextView02">TextView02[02]</string>
+<string name="Button02">Button02[Hoge]</string>
+<string name="Button03">Close</string>
+</resources>
